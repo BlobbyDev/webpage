@@ -1,0 +1,19 @@
+body {
+    background: rgba(0, 0, 0, 0.849);
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.msg {
+    font-size: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    
+}
