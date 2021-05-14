@@ -1,6 +1,6 @@
 body {
     background: rgba(0, 0, 0, 0.849);
-    color:white;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
@@ -30,6 +30,12 @@ img {
     text-align: center;
     padding-top: 20px;
     font-size: 20px;
+    font-family: Palatino;
+}
+
+.profile-desc {
+    text-align: center;
+    font-size: 13px;
 }
 
 .links {
@@ -49,7 +55,8 @@ img {
 a {
     text-decoration: none;
     color: white;
-    transition: color 1s;
+    box-shadow : 0 0 5px #ffff ;
+    transition: color 0.7s;
 }
 
 .footer {
