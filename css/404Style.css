@@ -1,0 +1,45 @@
+body {
+    background: rgba(0, 0, 0, 0.849);
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.msg {
+    font-size: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+.back {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    border-radius: 12px;
+    width: 300px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+    box-shadow : 0 0 5px #ffff ;
+}
+
+a:hover {
+    color: black;
+    background: white;
+}
