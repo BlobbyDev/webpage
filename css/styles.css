@@ -26,6 +26,23 @@ img {
     font-size: 50px;
 }
 
+span::before{
+    content: '';
+    animation: animate 12s infinite;
+}
+@keyframes animate {
+    0%{
+        content: 'I\'m Blobby';
+    }
+    60%{
+        content: 'A Student';
+    }
+    100%{
+        content: 'A Developer';
+    }
+
+}
+
 .profile-info {
     text-align: center;
     padding-top: 20px;
