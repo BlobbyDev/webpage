@@ -1,9 +1,15 @@
 body {
-    background: linear-gradient(to top, #141212b6, #000000);
+    background-color: var(--background);
     color:white;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
+}
+
+body {
+    background: linear-gradient(50deg, #505057, #11111b, #687074, #a1a1a1);
+    background-size: 500% 500%;
+    animation: gradient 10s ease infinite;
 }
 
 *{
@@ -119,4 +125,16 @@ a:hover {
   
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
