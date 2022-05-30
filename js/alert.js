@@ -1,1 +1,0 @@
-alert('Hey this is my page I\'m Blobby a student and a developer check out my other socials that I\'m in & have a nice day :D')
